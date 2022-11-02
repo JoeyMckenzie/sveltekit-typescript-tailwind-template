@@ -12,31 +12,31 @@
 	<div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
 		<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 		<a
-			href="#"
+			href="/"
 			class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
 			aria-current="page">Dashboard</a
 		>
 
 		<a
-			href="#"
+			href="/"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 			>Team</a
 		>
 
 		<a
-			href="#"
+			href="/"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 			>Projects</a
 		>
 
 		<a
-			href="#"
+			href="/"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 			>Calendar</a
 		>
 
 		<a
-			href="#"
+			href="/"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 			>Reports</a
 		>
@@ -80,19 +80,19 @@
 		</div>
 		<div class="mt-3 space-y-1 px-2">
 			<a
-				href="#"
+				href="/"
 				class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
 				>Your Profile</a
 			>
 
 			<a
-				href="#"
+				href="/"
 				class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
 				>Settings</a
 			>
 
 			<a
-				href="#"
+				href="/"
 				class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
 				>Sign out</a
 			>

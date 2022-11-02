@@ -63,7 +63,7 @@
 				>
 					<div class="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
 						<div class="flex w-full items-center justify-between md:w-auto">
-							<a href="#">
+							<a href="/">
 								<span class="sr-only">Your Company</span>
 								<img
 									class="h-8 w-auto sm:h-10"
@@ -100,20 +100,20 @@
 						</div>
 					</div>
 					<div class="hidden md:flex md:space-x-10">
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+						<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
 
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
+						<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
 
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
+						<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
 
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
+						<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
 					</div>
 					<div
 						class="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end"
 					>
 						<span class="inline-flex rounded-md shadow">
 							<a
-								href="#"
+								href="/"
 								class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-50"
 								>Log in</a
 							>
@@ -179,31 +179,31 @@
 						</div>
 						<div class="px-2 pt-2 pb-3">
 							<a
-								href="#"
+								href="/"
 								class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 								>Product</a
 							>
 
 							<a
-								href="#"
+								href="/"
 								class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 								>Features</a
 							>
 
 							<a
-								href="#"
+								href="/"
 								class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 								>Marketplace</a
 							>
 
 							<a
-								href="#"
+								href="/"
 								class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 								>Company</a
 							>
 						</div>
 						<a
-							href="#"
+							href="/"
 							class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
 							>Log in</a
 						>
@@ -227,14 +227,14 @@
 				<div class="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
 					<div class="rounded-md shadow">
 						<a
-							href="#"
+							href="/"
 							class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
 							>Get started</a
 						>
 					</div>
 					<div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
 						<a
-							href="#"
+							href="/"
 							class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg"
 							>Live demo</a
 						>
