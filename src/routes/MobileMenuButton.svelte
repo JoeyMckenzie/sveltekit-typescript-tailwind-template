@@ -1,28 +1,22 @@
-<script lang="ts">
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
-
-	function onMobileMenuClicked() {
-		dispatch('toggled');
-	}
+<script>
+	import { toggleMobileMenu } from '$lib/stores/mobile-menu.store';
 </script>
 
 <div class="-mr-2 flex md:hidden">
 	<!-- Mobile menu button -->
 	<button
 		type="button"
-		on:click={onMobileMenuClicked}
+		on:click={toggleMobileMenu}
 		class="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 		aria-controls="mobile-menu"
 		aria-expanded="false"
 	>
 		<span class="sr-only">Open main menu</span>
 		<!--
-              Heroicon name: outline/bars-3
+			Heroicon name: outline/bars-3
 
-              Menu open: "hidden", Menu closed: "block"
-            -->
+			Menu open: "hidden", Menu closed: "block"
+		-->
 		<svg
 			class="block h-6 w-6"
 			xmlns="http://www.w3.org/2000/svg"
