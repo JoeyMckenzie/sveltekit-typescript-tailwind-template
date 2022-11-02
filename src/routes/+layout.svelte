@@ -1,54 +1,24 @@
 <script lang="ts">
-	import Header from './Header.svelte';
 	import './styles.css';
 	import '../app.css';
+	import Navbar from './Navbar.svelte';
 </script>
 
-<div class="app">
-	<Header />
+<div class="min-h-full">
+	<Navbar />
 
+	<header class="bg-white shadow">
+		<div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
+			<h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+		</div>
+	</header>
 	<main>
-		<slot />
+		<div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+			<!-- Replace with your content -->
+			<div class="px-4 py-6 sm:px-0">
+				<div class="h-96 rounded-lg border-4 border-dashed border-gray-200" />
+			</div>
+			<!-- /End replace -->
+		</div>
 	</main>
-
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
 </div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
