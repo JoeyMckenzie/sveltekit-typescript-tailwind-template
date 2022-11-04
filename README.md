@@ -47,3 +47,11 @@ Either:
 
 - Open the project in a container through VS Code using `ctrl` + `shift` + `p` and select `Dev Containers: Open Folder in Container...`
 - Build the container locally with `devcontainer build --workspace-folder .` and use the above command to attach your local workspace to the container
+
+## Husky git hooks
+
+If you'd rather disable/enable only certain hooks, it's only a matter of removing the individual lifecycle hook you're interested in in the `.husky` folder. By default, three hooks are enabled:
+
+- `commit-msg`: validates commit messages on an individual commit conform to (more/less) semantic commit convention (see `commitlint.config.js` to customize this)
+- `pre-commit`: formats staged code using [lint-staged](https://github.com/okonet/lint-staged) based on `.prettierrc` configuration
+- `pre-push`: runs [Playwright](https://playwright.dev/) tests before pushing commits to the remote origin
