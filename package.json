@@ -1,5 +1,6 @@
 {
 	"name": "svelte-typescript-tailwind-template",
+	"packageManager": "yarn@3.2.4",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -13,7 +14,7 @@
 		"prepare": "husky install"
 	},
 	"lint-staged": {
-		"*.{html,js,ts,svelte,cjs,json}": "npm run format"
+		"*.{html,js,ts,svelte,cjs,json}": "yarn format"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.2.0",

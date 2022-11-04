@@ -7,7 +7,7 @@
 	<button
 		type="button"
 		on:click={toggleMobileMenu}
-		class="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+		class="inline-flex items-center justify-center rounded-md dark:bg-gray-800 p-2 text-gray-400 dark:hover:bg-gray-700 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800 focus:ring-offset-gray-400"
 		aria-controls="mobile-menu"
 		aria-expanded="false"
 	>
