@@ -5,11 +5,11 @@ test('navbar contains theme toggle button', async ({ page }) => {
 	await page.goto('/');
 
 	// act
-	const expectedElement = await page.locator('data-testid=theme-toggle');
+	const themeToggleButton = await page.locator('data-testid=theme-toggle');
 
 	// assert
-	expect(expectedElement).not.toBeUndefined();
-	expect(await expectedElement.innerText()).toBe('Light');
+	expect(themeToggleButton).not.toBeUndefined();
+	expect(await themeToggleButton.innerText()).toBe('Light');
 });
 
 test('toggling the navbar changes the text', async ({ page }) => {
@@ -17,10 +17,10 @@ test('toggling the navbar changes the text', async ({ page }) => {
 	await page.goto('/');
 
 	// act
-	const expectedElement = await page.locator('data-testid=theme-toggle');
-	await expectedElement.click();
+	const themeToggleButton = await page.locator('data-testid=theme-toggle');
+	await themeToggleButton.click();
 
 	// assert
-	expect(expectedElement).not.toBeUndefined();
-	expect(await expectedElement.innerText()).toBe('Dark');
+	expect(themeToggleButton).not.toBeUndefined();
+	expect(await themeToggleButton.innerText()).toBe('Dark');
 });

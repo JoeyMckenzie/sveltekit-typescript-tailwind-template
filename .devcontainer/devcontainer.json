@@ -1,0 +1,31 @@
+{
+	"name": "Sveltekit template dev container",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:18-bullseye",
+	"extensions": [
+		"bradlc.vscode-tailwindcss",
+		"christian-kohler.npm-intellisense",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"EditorConfig.EditorConfig",
+		"esbenp.prettier-vscode",
+		"svelte.svelte-vscode",
+		"streetsidesoftware.code-spell-checker"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+
+	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "root",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest"
+		}
+	}
+}
