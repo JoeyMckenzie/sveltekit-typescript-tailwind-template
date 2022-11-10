@@ -16,7 +16,7 @@ The template builds upon the sveltekit template included tools in ESLint, Pretti
 The simplest way to get up and running with the template is using [degit](https://github.com/Rich-Harris/degit). In a terminal of your choice, install degit and clone the project (without git history):
 
 ```bash
-yarn add --global degit # or, npm install -g degit
+yarn global add degit # or, npm install -g degit
 degit JoeyMcKenzie/sveltekit-typescript-tailwind-template path-to/your-project
 ```
 
