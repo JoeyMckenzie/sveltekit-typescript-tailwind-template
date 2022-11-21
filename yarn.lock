@@ -3802,6 +3802,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.4.19":
+  version: 8.4.19
+  resolution: "postcss@npm:8.4.19"
+  dependencies:
+    nanoid: ^3.3.4
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -4600,7 +4611,7 @@ __metadata:
     eslint-plugin-svelte3: ^4.0.0
     husky: ^8.0.2
     lint-staged: ^13.0.3
-    postcss: ^8.4.18
+    postcss: ^8.4.19
     prettier: ^2.6.2
     prettier-plugin-svelte: ^2.7.0
     svelte: ^3.53.1
