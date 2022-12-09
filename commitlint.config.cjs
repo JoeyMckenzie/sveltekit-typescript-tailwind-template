@@ -3,8 +3,7 @@ module.exports = {
 	parserPreset: {
 		parserOpts: {
 			headerPattern: /^(\w*)\((\w*)\):\s(.*)$/, // TODO: add the commit enforcement pattern to your liking
-			headerCorrespondence: ['type', 'scope', 'subject'],
-			issuePrefixes: ['^PD-[0-9]{1,4}']
+			headerCorrespondence: ['type', 'scope', 'subject']
 		}
 	},
 	rules: {
